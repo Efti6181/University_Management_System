@@ -1,8 +1,3 @@
-Here is a **clean, professional, fully polished GitHub README** with detailed sections and GitHub-style formatting.
-You can **copy–paste directly** into your repository, sir.
-
----
-
 # 📚 University Management System (UMS)
 
 ![Status](https://img.shields.io/badge/Project-Completed-success?style=flat-square)
