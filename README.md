@@ -6,9 +6,13 @@ You can **copy–paste directly** into your repository, sir.
 # 📚 University Management System (UMS)
 
 ![Status](https://img.shields.io/badge/Project-Completed-success?style=flat-square)
+
 ![Tech](https://img.shields.io/badge/Tech-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20PHP-blue?style=flat-square)
+
 ![Database](https://img.shields.io/badge/Database-MySQL-orange?style=flat-square)
+
 ![Server](https://img.shields.io/badge/Server-Apache-lightgrey?style=flat-square)
+
 ![Platform](https://img.shields.io/badge/Platform-Web-brightgreen?style=flat-square)
 
 A comprehensive **University Management System (UMS)** built as part of the Database Management System Laboratory course.
@@ -147,38 +151,9 @@ You may include screenshots such as:
 * Complaint resolution
 * Academic session control
 
----
-
-## 📍 How to Run Locally
-
-```bash
-# Step 1 — Clone the repository
-git clone https://github.com/your-username/your-repo.git
-
-# Step 2 — Move the project folder into htdocs (if using XAMPP)
-
-# Step 3 — Import the SQL database
-Import the provided .sql file into phpMyAdmin
-
-# Step 4 — Configure Database
-Update database credentials in config.php
-
-# Step 5 — Start Apache & MySQL
-Run the project at:
-http://localhost/your-folder-name
-```
 
 ---
 
-## 🧩 Future Improvements
-
-* Responsive UI for mobile and tablet screens
-* Attendance management system
-* Push/SMS notifications
-* REST API development
-* Exportable transcripts & reports
-
----
 
 ## 🏁 Conclusion
 
@@ -186,18 +161,20 @@ The **University Management System** delivers a structured, scalable, and secure
 
 ---
 
-## ✨ Developer
+## 📜 License
 
-**Najmul Alam Efti**
-Database Management System Laboratory Project
-Batch 44, CSE Department
+This project is licensed under the ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)  
 
 ---
 
-If you want, I can also generate:
-✔ Project banner image for GitHub
-✔ Short version of README
-✔ Folder structure section
-✔ A project demo GIF
+## 👨‍💻 Author
 
-Just tell me, sir!
+**Najmul Alam Efti**
+
+🎓 Premier University, Chittagong
+
+📧 \[najmul27alam@gmail.com]
+
+🌐 [Live Demo](https://covgene.netlify.app)
+
+---
