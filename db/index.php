@@ -69,8 +69,6 @@ if(isset($_POST['signIn']))
     $id=$_POST['id'];
     $pass=$_POST['password'];
     $role=$_POST['role'];
-
-    // Only allow PHP login for student and faculty
     if ($role == 'faculty') {
         $sql="select tid,password from teacher where tid='$id' and password='$pass'";
         $tr=mysqli_query($con,$sql);
@@ -105,4 +103,5 @@ if(isset($_POST['signIn']))
     }
     echo "<p style='color: red;'>Incorrect UserId or Password</p>";
 }
+
 ?>
