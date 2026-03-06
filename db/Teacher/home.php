@@ -1,7 +1,5 @@
 <?php
    session_start();
-
-//    Sign Out code
    if(isset($_GET['sign']) and $_GET['sign']=="out") {
 	$_SESSION['student_login_status']="loged out";
 	unset($_SESSION['user_id']);
@@ -34,7 +32,6 @@
       height: 100vh;
     }
 
-    /* Sidebar */
     .sidebar {
       width: 250px;
       background: #004080;
@@ -78,8 +75,6 @@
     .nav-links a.active {
       background: #0066cc;
     }
-
-    /* Main Content */
     .main-content {
       flex: 1;
       padding: 20px;
@@ -151,7 +146,6 @@
   </style>
 </head>
 <body>
-  <!-- Sidebar -->
   <div class="sidebar">
     <img src="logo.png" alt="University Logo">
     <h2>Faculty Panel</h2>
@@ -166,7 +160,6 @@
     </ul>
   </div>
 
-  <!-- Main Content -->
   <div class="main-content">
     <div class="header">
       <?php       
@@ -183,9 +176,8 @@ echo "<div style='text-align: left; padding: 20px 0;'>
     <div class="content-box" id="content">
       <h2>Dashboard</h2>
            <?php
-include("../connection.php"); // your DB connection file
+include("../connection.php");
 
-// Query the academic table
 $sql = "SELECT c_ses, c_year FROM academic ORDER BY id DESC LIMIT 1"; 
 $result = mysqli_query($con, $sql);
 
@@ -267,10 +259,10 @@ if ($result && mysqli_num_rows($result) > 0) {
 
       content.innerHTML = html;
 
-      // Update active state
       document.querySelectorAll(".nav-links a").forEach(a => a.classList.remove("active"));
       event.target.classList.add("active");
     }
   </script>
 </body>
 </html>
+
