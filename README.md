@@ -102,7 +102,6 @@ The database structure ensures:
 
 ---
 
-## 📸 Screenshots (Add Later)
 
 You may include screenshots such as:
 
